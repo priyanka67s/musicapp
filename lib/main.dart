@@ -90,7 +90,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin{
       body:TabBarView(
         controller: _tabController,
         children: tabs.map((tab) => TabContent()).toList(),
-      ),git
+      ),
+
         bottomNavigationBar: BottomNavigationBar(
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.home, color:Colors.red), label: 'Home'),
